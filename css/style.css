@@ -1,0 +1,196 @@
+/* 
+    Author: Sandeep p.s;
+    Theme: Testing responsive design;
+    version: 1.0;
+*/ 
+*{
+    /* For removing the  default margin and padding*/
+    margin: 0 0;
+    padding: 0 0;
+    /* mutiple fonts are added if any of them failed,for backup purpose ;))*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CSS for all*/ 
+.container {
+    width: 80%;
+    margin: 0 auto; /* for top 5% and others are auto..applied outside border*/
+    padding: 1%; /* "exception" padding applied inside border*/ 
+
+}
+.img-responsive {
+    width: 100%
+}
+
+.img-curve {
+    border-radius: 10px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.clearfix{
+    clear: left;
+    float:none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{ /* psuedo class select the state of the element*/ 
+    color:#ff4757;
+}
+.btn{
+    padding: 1%;
+    border:none;
+    font-size : 1rem;
+    border-radius: 20px;
+}
+
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 40px;
+    left: 40%;
+}
+
+
+
+/* CSS for navbar section*/
+
+.logo {
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height:  40px;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul, li{
+    display:inline;
+    padding: 1%;
+}
+
+/* CSS for Search*/
+
+.search{
+    background-image: url(../images/bg.jpg);
+    padding: 7% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border:none;
+    border-radius: 20px;
+}
+
+
+/* CSS for categories */
+.categories{
+    padding:4% 0;
+}
+
+.box-3{
+
+    width: 28%;
+    float: left;
+    margin: 2%;
+    
+}
+
+/* CSS for food menu*/
+.fmenu {
+    background-color: #ececec;
+    padding: 4% 0;
+}
+
+.explore1 {
+    width: 40%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.fmenu-img{
+    width: 20%; 
+    float: left;
+}
+
+.fmenu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.fprice{
+    font-size:1.2rem;
+    margin: 2% 0;
+}
+
+.fdetail {
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for social*/
+
+.social ul{
+    list-style: none;
+}
+.social ul, li{
+    display: inline;
+    padding: 1%;
+
+}
+
+/* CSS for footer */
+
+.footer {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #747d8c;
+}
