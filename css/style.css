@@ -207,4 +207,9 @@ h3{
         text-align: center;
 
     }
+    .search input[type="search"]{
+        width:90%;
+        padding: 2%;
+        margin-bottom: 5%;
+    }
 }
