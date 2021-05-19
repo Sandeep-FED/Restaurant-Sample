@@ -233,4 +233,17 @@ h3{
         margin: 4% auto;
     }
     
+    .fmenu {
+        padding: 20% 0;
+    }
+
+    .explore1 {
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+
+    .social{
+        padding: 5% auto;
+    }
 }
