@@ -197,7 +197,8 @@ h3{
 
 /* CSS for mobile site or smaller screen*/
 
-@media only screen and(max-width:768px){
+@media only screen and (max-width:768px) {
+
     .logo{
         width: 80%;
         float:none;
@@ -212,4 +213,24 @@ h3{
         padding: 2%;
         margin-bottom: 5%;
     }
+
+    .btn{
+        width: 91;
+        padding: 2%
+
+    }
+
+    .search {
+        padding: 20%  0;
+    }
+
+    h2 {
+        margin-bottom: 5% auto;
+    }
+
+    .box-3{
+        width: 95%;
+        margin: 4% auto;
+    }
+    
 }
